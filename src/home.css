@@ -4,15 +4,7 @@
     top: 0px;
     z-index: -1;
   }
-.homelogo2{
-    position: absolute;
-    background-color: #0c510c;
-    border-radius:0px 40px 0px 50px;
-    top:280px;
-    left:650px;
-    right:10px;
-    text-align: center;
-  }
+
   
   .home3{
     font-size:1rem;
@@ -33,7 +25,7 @@
 }
 
 .party{
-  background-color:#0c510c;
+  background-color:#f3fbf3;
   height:300px;
   width:100%;
   align-items: center;

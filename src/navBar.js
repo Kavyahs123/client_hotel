@@ -2,7 +2,7 @@ import React from 'react';
 import insta from '../src/image/insta.jpg';
 // import logo from '../src/image/logo.jpg';
 import whats from '../src/image/whatsapp.png';
-
+import navbarbg from '../src/image/navbarbg.png';
 import './navBar.css';
 import { Outlet, Link } from "react-router-dom";
 
@@ -17,8 +17,8 @@ const navItem={
 
 const navBar = () => {
   return (
-   <div>
-     <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style={{backgroundColor:'black',paddingTop:'20px',paddingBottom:'20px'}}>
+   <div >
+     <nav class="navbar navbar-expand-lg  navbar-dark fixed-top" style={{backgroundImage:`url(${navbarbg})`,backgroundAttachment:'fixed',paddingTop:'20px',paddingBottom:'20px'}}>
    
    {/* <a href="#home" class="navbar-brand "><img  class="img-fluid"  width="100px" alt=""/></a> */}
        <button class="navbar-toggler" type="button"  data-bs-toggle="collapse"  data-bs-target="#navmenu">
