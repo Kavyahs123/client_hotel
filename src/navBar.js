@@ -1,9 +1,6 @@
 import React from 'react';
-
-import whats from '../src/image/whatsapp.png';
-import navbarbg from '../src/image/navbarbg.png';
 import './navBar.css';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const navItem={

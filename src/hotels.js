@@ -1,8 +1,7 @@
-import React , { useState } from 'react';
+import React  from 'react';
 import hotel from '../src/image/hotel.jpg';
 import resort from '../src/image/resort.jpg';
-import restro from '../src/image/restro.jpg';
-import restro1 from '../src/image/retro1.jpg';
+
 import './hotel.css';
 const Hotels = () => {
    

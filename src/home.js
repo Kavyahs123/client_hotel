@@ -2,8 +2,7 @@ import React from 'react'
 import 'animate.css';
 import './home.css';
 import home5 from '../src/image/home5.jpg';
-import aboutbg from '../src/image/aboutUs.jpg';
-import aboutbg1 from '../src/image/aboutUs1.jpg';
+
 import aboutbg2 from '../src/image/aboutUs3.jpg';
 import Rooms from './Rooms';
 import game from '../src/image/game.jpg';

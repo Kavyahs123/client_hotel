@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Card, Button } from 'react-bootstrap';
+import { Card} from 'react-bootstrap';
 import aboutbg2 from '../src/image/aboutUs3.jpg';
 
 export const DayOut = () => {

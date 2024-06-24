@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Carousel, Card, Button } from 'react-bootstrap';
+import React from 'react';
+import {Card} from 'react-bootstrap';
 import image1 from '../src/image/aboutUs1.jpg';
 import image2 from '../src/image/room2.jpg';
 import image3 from '../src/image/aboutUs2.jpg';
