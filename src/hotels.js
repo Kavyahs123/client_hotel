@@ -114,7 +114,7 @@ Connect with us …</p>
 </div>
     </div>
     <div >
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d248723.84321479828!2d77.592507!3d13.079526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae183ec58b854b%3A0x958fe75bff0c6d8e!2sAttide%20Boutique%20Hotel!5e0!3m2!1sen!2sus!4v1703916550604!5m2!1sen!2sus" width="100%" height="500px"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d248723.84321479828!2d77.592507!3d13.079526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae183ec58b854b%3A0x958fe75bff0c6d8e!2sAttide%20Boutique%20Hotel!5e0!3m2!1sen!2sus!4v1703916550604!5m2!1sen!2sus" width="100%" height="500px" title="unique"></iframe>
     </div>
     
 </div>
