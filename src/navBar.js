@@ -34,13 +34,7 @@ const navBar = () => {
            <Link  class="nav-link" to="/HOTELS">ROOMS</Link>
            </li>
           
-           {/* <li class="nav-item ">
-             <a class="nav-link" href="/ABOUTUS">ABOUTUS</a>
-           </li> */}
-           {/* <li>
-           <a  href=""><img src={whats} alt="inta" height="30px"style={{borderRadius:'50%',marginRight:'15px'}}></img></a>
-           <a href="" style={{textDecoration:'none',color:'#eee'}}><i class="bi bi-telephone-inbound" style={{color:"#eee",paddingRight:'7px'}}></i>8310241431</a>
-           </li> */}
+          
            </ul>
            </div>
            

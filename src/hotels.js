@@ -126,7 +126,7 @@ Connect with us …</p>
 
 
         <div>  
-<img src={resort} width="100%" hei></img>
+<img src={resort} alt="" width="100%" hei></img>
      </div>
 
 
