@@ -15,7 +15,7 @@ const navBar = () => {
   return (
    <div >
      <nav class=" navbar navbar-expand-lg  fixed-top" style={{backgroundAttachment:'fixed',backgroundColor:"rgba(0,0,0,0.8)",marginRight:'10px',marginLeft:"10px"}}>
-     <a style={{color:"orange"}}><span style={{color:'#006400'}}>༺</span> <span style={{fontStyle:'italic',fontSize:'70px'}}>𝓡</span>𝒶𝒹𝒾𝒶𝓃𝓉 𝓋𝒶𝓁𝓁𝑒𝓎 𝓇𝑒𝓈𝑜𝓇𝓉 <span style={{color:'#006400'}}>༺</span> </a>
+     <a style={{color:"orange"}} href=""><span style={{color:'#006400'}}>༺</span> <span style={{fontStyle:'italic',fontSize:'70px'}}>𝓡</span>𝒶𝒹𝒾𝒶𝓃𝓉 𝓋𝒶𝓁𝓁𝑒𝓎 𝓇𝑒𝓈𝑜𝓇𝓉 <span style={{color:'#006400'}}>༺</span> </a>
  
           
        <button class="navbar-toggler" type="button"  data-bs-toggle="collapse"  data-bs-target="#navmenu">
