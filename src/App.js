@@ -4,7 +4,8 @@ import Navbar from './navBar';
 import Home from './home';
 import Contact from './contactUs';
 import Hotels from './hotels';
-import About from './aboutUs';
+import { Dining } from './Dining';
+
 
 
 
@@ -16,7 +17,8 @@ const App = () => {
         <Route path="" element={<Home />}/>
           <Route path="/HOME" element={<Home/>}/>
           <Route path="/HOTELS" element={<Hotels />} />
-          <Route path="/ABOUTUS" element={<About />} />
+        <Route path="/DINING" element={<Dining/>}/>
+        
         </Routes>
         <Contact />
       </div>

@@ -1,6 +1,5 @@
 import React from 'react';
-import insta from '../src/image/insta.jpg';
-// import logo from '../src/image/logo.jpg';
+
 import whats from '../src/image/whatsapp.png';
 import navbarbg from '../src/image/navbarbg.png';
 import './navBar.css';
@@ -18,33 +17,36 @@ const navItem={
 const navBar = () => {
   return (
    <div >
-     <nav class="navbar navbar-expand-lg  navbar-dark fixed-top" style={{backgroundImage:`url(${navbarbg})`,backgroundAttachment:'fixed',paddingTop:'20px',paddingBottom:'20px'}}>
-   
-   {/* <a href="#home" class="navbar-brand "><img  class="img-fluid"  width="100px" alt=""/></a> */}
+     <nav class=" navbar navbar-expand-lg  fixed-top" style={{backgroundAttachment:'fixed',backgroundColor:"rgba(0,0,0,0.8)",marginRight:'10px',marginLeft:"10px"}}>
+     <a style={{color:"orange"}}><span style={{color:'#006400'}}>༺</span> <span style={{fontStyle:'italic',fontSize:'70px'}}>𝓡</span>𝒶𝒹𝒾𝒶𝓃𝓉 𝓋𝒶𝓁𝓁𝑒𝓎 𝓇𝑒𝓈𝑜𝓇𝓉 <span style={{color:'#006400'}}>༺</span> </a>
+ 
+          
        <button class="navbar-toggler" type="button"  data-bs-toggle="collapse"  data-bs-target="#navmenu">
          <span class="navbar-toggler-icon"></span>
        </button>
+       
        <div class="collapse navbar-collapse"  id="navmenu">
          <ul class="navbar-nav ms-auto" style={navItem}>
            <li class="nav-item">
            <Link  class="nav-link" to="/HOME">HOME</Link>
            </li> 
            <li class="nav-item ">
-           <Link  class="nav-link" to="/HOTELS">HOTELS</Link>
+           <Link  class="nav-link" to="/DINING">DINING</Link>
            </li>
-          
            <li class="nav-item ">
-             <a class="nav-link" href="/ABOUTUS">ABOUTUS</a>
+           <Link  class="nav-link" to="/HOTELS">ROOMS</Link>
            </li>
           
+           {/* <li class="nav-item ">
+             <a class="nav-link" href="/ABOUTUS">ABOUTUS</a>
+           </li> */}
+           {/* <li>
+           <a  href=""><img src={whats} alt="inta" height="30px"style={{borderRadius:'50%',marginRight:'15px'}}></img></a>
+           <a href="" style={{textDecoration:'none',color:'#eee'}}><i class="bi bi-telephone-inbound" style={{color:"#eee",paddingRight:'7px'}}></i>8310241431</a>
+           </li> */}
            </ul>
            </div>
-           <li>
-             <a  href=""><img src={insta} alt="inta" height="50px"style={{borderRadius:'10px'}}></img></a>
-           </li>
-           <li >
-             <a  href=""><img src={whats} alt="inta" height="50px"style={{borderRadius:'8px',marginRight:'10px'}}></img></a>
-           </li>
+           
            
           </nav>
    </div>

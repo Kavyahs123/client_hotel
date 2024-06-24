@@ -18,7 +18,7 @@ const Banquets = () => {
   };
  const columnNames = ['ATTIDE BANQUET', 'ATTIDE BIZ', 'SWATHI RESTAURANT', 'SWATHI GARDENIA', 'SWATHI RING VIEW'];
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)' ,backgroundColor:"#f3fbf3"}}>
+    <div className="d-md-grid" style={{ gridTemplateColumns: 'repeat(2, 1fr)' ,backgroundColor:"#f3fbf3"}}>
       <div style={{margin:'50px',backgroundColor:"#f3fbf3"}}>
         {columnNames.map((columnName) => (
           <div

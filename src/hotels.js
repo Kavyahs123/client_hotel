@@ -3,16 +3,14 @@ import hotel from '../src/image/hotel.jpg';
 import resort from '../src/image/resort.jpg';
 import restro from '../src/image/restro.jpg';
 import restro1 from '../src/image/retro1.jpg';
-
-
 import './hotel.css';
 const Hotels = () => {
    
   const containerStyle = {
     
-    marginTop:'80px',
+    
     position: 'relative',
-    paddingTop: '20px',
+    paddingTop: '400px',
     backgroundAttachment:'fixed'
   };
 
@@ -25,7 +23,7 @@ const Hotels = () => {
     zIndex: -1,
   };
   const cardStyle = {
-    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
     
   };
   const buttonStyle = {
@@ -37,21 +35,35 @@ const Hotels = () => {
 
   return (
     <div>
-    <div style={containerStyle}>
+    <div style={containerStyle} >
       <img src={hotel} alt="Hotel" style={imageStyle} />
       
       <div className="card" style={cardStyle}>
-      <h1 className="text-center animate__animated animate__backInDown animate_delay-1s" style={{fontFamiy:'sans-serif',color:'#cda05b',fontSize:'50px',paddingTop:'30px',paddingBottom:'60px'}}>Attide Hotels</h1>
+      <h1 className="text-center " style={{fontFamiy:'sans-serif',color:'orange',paddingTop:'30px',paddingBottom:'60px'}}>༺ <span style={{fontSize:'60px'}}>𝒜</span>𝓉𝓉𝒾𝒹𝑒 𝓡𝑜𝑜𝓂𝓈 ༺</h1>
         <div className="d-sm-flex">
-        <div className="card-body animate__animated animate__backInLeft animate_delay-2s" style={{backgroundColor:'rgba(0,0,0,0.4)',textAlign:'center',height:'400px',marginBottom:'20px'}}>
-          <h5 className="card-title " style={{fontFamily:"sans-serif",color:'#cda05b',fontSize:'1.9em'}}>Attide</h5>
+        <div className="card-body " style={{backgroundColor:'rgba(0,0,0,0.8)',textAlign:'center',height:'400px',marginBottom:'20px'}}>
+          <h5 className="card-title " style={{fontFamily:"sans-serif",color:'#cda05b',fontSize:'1.5em'}}>Attide</h5>
           <p className="card-text" style={{color:'#b4b1af'}}>
           We offer comfortable accommodations with all amenities and services to cater to business as well as leisure travelers available.Our rooms are designed for your comfort, equipped with modern conveniences, and provide a relaxing environment. Whether you're here for work or leisure, we strive to make your stay enjoyable.
           </p>
           <button type="button" className="btn btn-lg" style={buttonStyle}>Learn more</button>
         </div>
-        <div className="card-body animate__animated animate__backInRight animate_delay-2s" style={{backgroundColor:'rgba(0,0,0,0.4)',marginLeft:'5px',textAlign:'center',height:'400px'}}>
-          <h5 className="card-title" style={{fontFamily:"sans-serif",color:'#cda05b',fontSize:'1.9em'}}>Attide Biz</h5>
+        <div className="card-body " style={{backgroundColor:'rgba(0,0,0,0.4)',marginLeft:'8px',textAlign:'center',height:'400px',marginBottom:'20px'}}>
+          <h5 className="card-title " style={{fontFamily:"sans-serif",color:'#cda05b',fontSize:'1.5em'}}>Dining Experience</h5>
+          <p className="card-text" style={{color:'#b4b1af'}}>
+          Indulge in a culinary journey at Attide, where we offer a delectable selection of dishes to satisfy every palate. Our restaurant serves a blend of local and international cuisine, prepared with fresh ingredients and expert craftsmanship. our attentive staff is dedicated to providing a memorable dining experience.
+          </p>
+          <button type="button" className="btn btn-lg" style={buttonStyle}>Learn more</button>
+        </div>
+        <div className="card-body " style={{backgroundColor:'rgba(0,0,0,0.8)',marginLeft:'8px',textAlign:'center',height:'400px',marginBottom:'20px'}}>
+          <h5 className="card-title " style={{fontFamily:"sans-serif",color:'#cda05b',fontSize:'1.5em'}}>Wellness and Recreation</h5>
+          <p className="card-text" style={{color:'#b4b1af'}}>
+          At Attide, we prioritize your well-being with our wellness and recreation offerings. Enjoy a rejuvenating experience at our fitness center equipped with modern exercise equipment. Unwind with a refreshing dip in our swimming pool or relax with a soothing spa treatment, ensuring a balanced and relaxing stay.
+          </p>
+          <button type="button" className="btn btn-lg" style={buttonStyle}>Learn more</button>
+        </div>
+        <div className="card-body " style={{backgroundColor:'rgba(0,0,0,0.4)',marginLeft:'5px',textAlign:'center',height:'400px'}}>
+          <h5 className="card-title" style={{fontFamily:"sans-serif",color:'#cda05b',fontSize:'1.5em'}}>Attide Biz</h5>
           <p className="card-text" style={{color:'#b4b1af'}}>
           A boutique hotel that offers efficient, well equipped stays close to Bangalore airport for business trip requirements and can also cater to leisure travelers.
           Our commitment is to provide personalized services, modern amenities, and a comfortable environment to ensure a memorable stay for our guests.
@@ -74,63 +86,7 @@ const Hotels = () => {
             </div>
         </div>
 
-        <div className="containerWithBackground">
-      <div className="d-md-flex restro">
-        <div className="restro1">
-          <p className="text-center" style={{paddingTop:'40px'}}>
-            Easy conversations with favorite drinks and choice of mouth-watering food. The satisfaction of such a scene is
-            what we wish for all of our patrons to feel. So we invite you to come, relax on our comfy lounge sofas and
-            enjoy your evening with our special signature drinks in hand and your favorite food on a plate.
-          </p>
-          <button type="button " class='btn' style={{border:'1.5px solid #cda05b',margin:'20px',marginBottom:'60px'}}>Our Menu</button>
-        </div>
-        <div className="restro2 " style={{color:'#bab8b8'}}>
-          <h2 style={{borderBottom:'1px solid #cda05b'}}>Malvan Tadka BAR & RESTAURANT</h2>
-         
-          <p>
-            50+ DELECTABLE SEAFOOD.
-          </p>
-          <p>
-            100+ AUTHENTIC DISHES
-          </p>
-          <p style={{marginBottom:'80px'}}>
-            Home to one of the best bars in town with an equally exceptional kitchen that can cook up authentic malvani
-            cuisine and more that you simply cannot forget.
-          </p>
-        </div>
-      </div>
-      <img src={restro} alt="Restaurant" width="100%" className="backgroundImage" />
-    </div>
-
-  
-  
-
-        <div className="containerWithBackground">
-      <div className="d-md-flex restro">
-        <div className="restro2 scrn">
-          <p className="text-center scrn1" style={{paddingTop:'40px',color:'#bab8b8'}}>
-          The quality of food is superior, the service is efficient yet elegant and the spread is abundant with a special corner for smoked and grilled food. Add to this scene of fine dining the novelty of live music and you will have a ‘perfect time ever spent’ to mark in your memories.
-
-
-          </p>
-          <button type="button " class='btn' style={{border:'1.5px solid #cda05b',margin:'20px',marginBottom:'60px',color:'#bab8b8'}}>Our Menu</button>
-        </div>
-        <div className="restro1" >
-          <h2 style={{borderBottom:'1px solid #cda05b'}}>Urban Flavours</h2>
-         
-          <p>
-            50+ DELECTABLE SEAFOOD.
-          </p>
-          <p>
-            100+ AUTHENTIC DISHES
-          </p>
-          <p style={{marginBottom:'80px'}}>
-          Located in Attide Boutique Hotel in Yelahanka, Bangalore, Urban Flavours, like its name suggests, serves a variety of flavours on a plate. North Indian, Chinese, and South American dishes in all their authenticity are served here. The elaborate buffet menu covers all delicacies that fit into a foodie’s dream come true.
-          </p>
-        </div>
-      </div>
-      <img src={restro1} alt="Restaurant" width="100%" className="backgroundImage" />
-    </div>
+   
 
     <div className='container-fluid d-md-flex' style={{backgroundColor:'#f0ddc5',padding:'60px'}}>
             <div className="container">
@@ -141,23 +97,7 @@ const Hotels = () => {
             </div>
         </div>
 
-<div style={{borderBottom:'3px solid orange',color:'white',width:'30%',marginLeft:'20px',marginTop:'120px'}}>hiii</div>
-        <div className=" container d-md-flex" style={{paddingTop:'120px',paddingBottom:'150px'}}>
-           
-            <div className='text-center'>
-            <h1 style={{fontFamily:'cursive',fontStyle:'italic'}}>Quality Service</h1>
-<p style={{color:'#a3a3a2',fontSize:'14px'}}>Quality service – Our services function true to the philosophy of hospitality: “Everything must be set for your comfort, satisfaction and memorable experience”.</p>
-            </div>
-            <div className='text-center'>
-           <h1 style={{fontFamily:'cursive',fontStyle:'italic',color:'skyblue'}}>Best Food</h1> 
-<p style={{color:'#a3a3a2',fontSize:'14px',paddingRight:'20px',paddingLeft:'20px'}}>No life experience is ever complete without food. Life experiences with us are complete and unforgettable because of the food. We’ve got a bountiful menu that can materialise scrumptious food</p>
-            </div>
-            <div className="text-center">
-            <h1 style={{fontFamily:'cursive',fontStyle:'italic',color:'skyblue'}}>Luxury Rooms</h1>
-<p style={{color:'#a3a3a2',fontSize:'14px'}}>Combine comfortable luxury with the serenity of nature and you will get a picture of what our stays look like. An experience of blissful rest, relaxation, and revival is guaranteed to be achieved</p>
-            </div>
-        </div>
-        <div style={{borderBottom:'3px solid orange',color:'white',width:'20%',marginLeft:'76%',marginBottom:'160px'}}>hiii</div>
+
      
 <div style={{backgroundColor:'#f0ddc5',paddingTop:'100px',paddingBottom:'100px'}}>
 <div className=" container " >

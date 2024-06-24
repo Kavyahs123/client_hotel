@@ -5,14 +5,20 @@
   }
   .navbar-toggler-icon{
    
-    background-color: hsl(120, 91%, 9%);
+    background-color: orange;
   }
   .nav-link:hover {
-    color: rgb(244, 242, 237);
-    border-bottom: 1px solid rgb(157, 239, 157);
+    color: orange;
+    
   }
+  .nav-link:focus,
+.nav-link:active {
+ 
+  color: orange;
+}
   @media only screen and (max-width: 990px) {
     .nav-item{
-      padding-left: 28px;
+    
+      text-align: center;
     }
   }

@@ -11,13 +11,7 @@
     color:hsl(0, 2%, 45%);
     text-transform:uppercase;
 }
-.video {
-  position: relative;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  background-color: black;
-}
+
 
 .text {
   position: absolute;
@@ -33,9 +27,20 @@
 }
 
 
-
-
-
+.aboutimg{
+  transform: rotate(-20deg);
+  transition: transform 1s;
+}
+.aboutimg:hover{
+  transform: rotate(0deg);
+}
+.exp{
+  transform: rotate(-40deg);
+  transition: transform 2s;
+}
+.exp:hover{
+transform: rotate(0deg);
+}
   @media only screen and (min-width: 650px) and (max-width: 950px) {
     .homelogo2{
         position: absolute;
@@ -61,4 +66,10 @@
 
     }
     
+  }
+  @media only screen and (min-width:400px)and (max-width:700px){
+    .exp{
+    
+      height:200px
+    }
   }
