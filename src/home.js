@@ -7,7 +7,7 @@ import aboutbg2 from '../src/image/aboutUs3.jpg';
 import Rooms from './Rooms';
 import game from '../src/image/game.jpg';
 import rain from '../src/image/rain.jpg';
-import trekk from '../src/image/trekk.jpg';
+import trekk from '../src/image/trekk.jpg'
 import { DayOut } from './DayOut';
 import homebg1 from '../src/image/homebg1.jpg';
 
@@ -31,7 +31,7 @@ const home = () => {
 
 <section id="aboutUs" className='p-5 d-md-flex'>
   <div>
-<img src={aboutbg2} width="350px" height="350px"  alt="" style={{border:'4px solid white',backgroundSize:'contain'}}></img>
+<img className="mt-2" src={aboutbg2} width="320px" height="350px"  alt="" style={{border:'4px solid white',backgroundSize:'contain'}}></img>
 <img className="aboutimg" src={aboutbg2} alt="" width="250px" height="200px" style={{marginTop:'-150px',marginLeft:'-40px',border:'10px solid orange'}}></img>
   </div>
   <div>

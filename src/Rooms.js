@@ -32,7 +32,7 @@ const Rooms = () => {
            
               <div className="d-md-flex  pb-5" style={{justifyContent:"center"}} >
                 {roomSlice.map(room => (
-                  <Card className="m-2 cards" key={room.id} style={{ width: '21rem' ,boxShadow:'10px 10px 10px 10px rgba(0,0,0,0.2)',border:'2px solid white'}}>
+                  <Card className="m-3 cards" key={room.id} style={{ width: '18rem' ,boxShadow:'10px 10px 10px 10px rgba(0,0,0,0.2)',border:'2px solid white'}}>
                     <Card.Img variant="top" src={room.imageUrl} />
                     <Card.Body>
                       <Card.Title style={{textAlign:'center',fontFamily:'monospace',letterSpacing:'1px',color:"green"}}> {room.title}</Card.Title>

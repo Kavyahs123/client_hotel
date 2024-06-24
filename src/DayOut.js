@@ -27,7 +27,7 @@ export const DayOut = () => {
               <div className="d-md-flex " style={{justifyContent:"center"}} >
                
                 {roomSlice.map(room => (
-                  <Card className="m-5 cards" key={room.id} style={{ width: '21rem' ,boxShadow:'10px 10px 10px 10px rgba(0,0,0,0.2)'}}>
+                  <Card className="m-3 cards" key={room.id} style={{ width: '21rem' ,boxShadow:'10px 10px 10px 10px rgba(0,0,0,0.2)'}}>
                     <Card.Img variant="top" src={room.imageUrl} />
                     <Card.Body style={{backgroundColor:"#4B6F44"}}>
                       <Card.Title style={{textAlign:'center',fontFamily:'monospace',letterSpacing:'1px',color:"white"}}> {room.title}</Card.Title>
